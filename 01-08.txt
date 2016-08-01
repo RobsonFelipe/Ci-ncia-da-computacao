@@ -1,0 +1,30 @@
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 01/08/2016
+// Seção de Declarações 
+var
+ A: vetor [0..4] inteiro
+ B: vetor [0..4] inteiro
+ C: vetor [0..9] inteiro
+ j ,i: inteiro
+ 
+inicio
+// Seção de Comandos
+    j <- 0
+   para i de 0 ate 4 faca
+    escreval("Entre com o valor do array 1")
+    leia (A[i])
+    C[j] <- A[i]
+    j<- j+1
+    
+    escreval("Entre com o valor do array 2")
+    leia (B[i])
+      C[j] <- B[i]
+    j<- j+1
+    
+   fimpara
+   
+   
+   
+fimalgoritmo
